@@ -15,13 +15,13 @@ public class CCuenta {
 	 */
 	private String cuenta;
 	/**
-	 * Define la cantidad de saldo que tiene
+	 * Define la cantidad de saldo que tiene que es poca porque es pobre
 	 */
 	private double saldo;
 	/**
-	 * Define con un número el tipo de interés que tiene la cuenta
+	 * Define con un nï¿½mero el tipo de interï¿½s que tiene la cuenta
 	 */
-	private double tipoInterés;
+	private double tipoInterï¿½s;
 
 	/**
 	 * Crea un objeto CCuenta con los valores indicados
@@ -35,13 +35,13 @@ public class CCuenta {
 	 * @param nom  Nombre del propietario de la cuenta
 	 * @param cue  Indica la cuenta en si
 	 * @param sal  Indica el valor restante en la cuenta
-	 * @param tipo Indica el valor del interés de la cuenta
+	 * @param tipo Indica el valor del interï¿½s de la cuenta
 	 */
 	public CCuenta(String nom, String cue, double sal, double tipo) {
 		nombre = nom;
 		cuenta = cue;
 		saldo = sal;
-		tipoInterés = tipo;
+		tipoInterï¿½s = tipo;
 	}
 
 	/**
@@ -53,7 +53,7 @@ public class CCuenta {
 	}
 
 	/**
-	 * Enseña el valor que hay en nombre
+	 * Enseï¿½a el valor que hay en nombre
 	 * @return Devuelve el valor del atributo nombre
 	 */
 	public String obtenerNombre() {
@@ -61,7 +61,7 @@ public class CCuenta {
 	}
 
 	/**
-	 * Enseña el valor guardado en el momento del saldo
+	 * Enseï¿½a el valor guardado en el momento del saldo
 	 * @return Devuelve la cantidad de saldo de la cuenta
 	 */
 	public double estado() {
@@ -69,7 +69,7 @@ public class CCuenta {
 	}
 
 	/**
-	 * Este método sirve para añadir dinero al saldo de tu cuenta
+	 * Este mï¿½todo sirve para aï¿½adir dinero al saldo de tu cuenta
 	 * 
 	 * @param cantidad Indica la cantidad que quieres ingresar en la cuenta
 	 * @throws Exception En caso de que la cantidad a ingresar sea menor a 0 se
@@ -129,16 +129,16 @@ public class CCuenta {
 	 * Indica el tipo de interes de la cuenta
 	 * @return Devuelve el tipo de interes de la cuenta
 	 */
-	public double getTipoInterés() {
-		return tipoInterés;
+	public double getTipoInterï¿½s() {
+		return tipoInterï¿½s;
 	}
 
 	/**
 	 * Cambia o asigna un nuvo valor para tu interes
 	 * 
-	 * @param tipoInterés Indica el nuevo interes
+	 * @param tipoInterï¿½s Indica el nuevo interes
 	 */
-	public void setTipoInterés(double tipoInterés) {
-		this.tipoInterés = tipoInterés;
+	public void setTipoInterï¿½s(double tipoInterï¿½s) {
+		this.tipoInterï¿½s = tipoInterï¿½s;
 	}
 }
